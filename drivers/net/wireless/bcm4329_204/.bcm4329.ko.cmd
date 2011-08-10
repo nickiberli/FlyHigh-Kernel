@@ -1,1 +1,0 @@
-cmd_drivers/net/wireless/bcm4329_204/bcm4329.ko := arm-eabi-ld -EL -r  -T /home/nicki/android/flyer-2.6.35/scripts/module-common.lds --build-id -o drivers/net/wireless/bcm4329_204/bcm4329.ko drivers/net/wireless/bcm4329_204/bcm4329.o drivers/net/wireless/bcm4329_204/bcm4329.mod.o

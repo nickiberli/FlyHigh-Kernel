@@ -1,3 +1,0 @@
-kernel/drivers/power/power_supply.ko
-kernel/drivers/power/ds2746_battery.ko
-kernel/drivers/power/ds2746_param.ko

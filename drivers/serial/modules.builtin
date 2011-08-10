@@ -1,5 +1,0 @@
-kernel/drivers/serial/serial_core.ko
-kernel/drivers/serial/msm_serial_hs.ko
-kernel/drivers/serial/msm_serial_hs_ti.ko
-kernel/drivers/serial/msm_serial_hs_bcm.ko
-kernel/drivers/serial/msm_serial_hs_brcm.ko

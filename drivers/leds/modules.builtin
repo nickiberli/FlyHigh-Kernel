@@ -1,4 +1,0 @@
-kernel/drivers/leds/led-class.ko
-kernel/drivers/leds/leds-gpio.ko
-kernel/drivers/leds/leds-microp.ko
-kernel/drivers/leds/leds-pm8058.ko
