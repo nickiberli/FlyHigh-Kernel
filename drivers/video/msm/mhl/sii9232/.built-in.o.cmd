@@ -1,0 +1,1 @@
+cmd_drivers/video/msm/mhl/sii9232/built-in.o :=  arm-eabi-ld -EL    -r -o drivers/video/msm/mhl/sii9232/built-in.o drivers/video/msm/mhl/sii9232/mhl_access.o drivers/video/msm/mhl/sii9232/mhl_hdcp.o drivers/video/msm/mhl/sii9232/mhl_sii9232.o drivers/video/msm/mhl/sii9232/mhl_tpi.o drivers/video/msm/mhl/sii9232/cbus/built-in.o 

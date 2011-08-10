@@ -1,0 +1,7 @@
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/msm/snd-soc-msm7kv2-dai.ko
+kernel/sound/soc/msm/snd-soc-msmv2.ko
+kernel/sound/soc/msm/snd-soc-msm7kv2.ko
+kernel/sound/soc/msm/snd-soc-msm-mvs-dai.ko
+kernel/sound/soc/msm/snd-soc-msm-mvs.ko
+kernel/sound/soc/msm/snd-soc-mvs7x30.ko
