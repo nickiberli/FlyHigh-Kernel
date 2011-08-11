@@ -1253,6 +1253,7 @@
 0x00000000	__ipv6_isatap_ifid	vmlinux	EXPORT_SYMBOL
 0x00000000	nf_conntrack_event_cb	vmlinux	EXPORT_SYMBOL_GPL
 0x00000000	hidinput_disconnect	vmlinux	EXPORT_SYMBOL_GPL
+0x00000000	tun_get_socket	drivers/net/tun	EXPORT_SYMBOL_GPL
 0x00000000	baswap	vmlinux	EXPORT_SYMBOL
 0x00000000	snd_soc_dapm_stream_event	vmlinux	EXPORT_SYMBOL_GPL
 0x00000000	dpm_resume_end	vmlinux	EXPORT_SYMBOL_GPL
