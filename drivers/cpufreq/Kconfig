@@ -78,6 +78,13 @@ config CPU_FREQ_DEFAULT_GOV_POWERSAVE
 	  the frequency statically to the lowest frequency supported by
 	  the CPU.
 
+config CPU_FREQ_DEFAULT_GOV_BRAZILIANWAX
+	bool "brazilianwax"
+	select CPU_FREQ_GOV_BRAZILIANWAX
+	select CPU_FREQ_GOV_PERFORMANCE
+	help
+	  Use the CPUFreq governor 'brazilianwax' as default
+
 config CPU_FREQ_DEFAULT_GOV_USERSPACE
 	bool "userspace"
 	select CPU_FREQ_GOV_USERSPACE
@@ -131,6 +138,14 @@ config CPU_FREQ_GOV_PERFORMANCE
 	  To compile this driver as a module, choose M here: the
 	  module will be called cpufreq_performance.
 
+	  If in doubt, say Y.
+
+config CPU_FREQ_GOV_BRAZILIANWAX
+	tristate "'brazilianwax' cpufreq governor"
+	depends on CPU_FREQ
+	help
+          brazilianwax' - a "slightly more agressive smart" optimized governor!
+ 
 	  If in doubt, say Y.
 
 config CPU_FREQ_GOV_POWERSAVE

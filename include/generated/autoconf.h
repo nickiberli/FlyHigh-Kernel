@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.14
- * Sun Aug 14 09:18:03 2011
+ * Mon Aug 15 07:15:11 2011
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -434,6 +434,7 @@
 #define CONFIG_REED_SOLOMON 1
 #define CONFIG_VMALLOC_RESERVE 0x24000000
 #define CONFIG_CP_ACCESS_MODULE 1
+#define CONFIG_CPU_FREQ_GOV_BRAZILIANWAX 1
 #define CONFIG_RTC_LIB 1
 #define CONFIG_USB_EHCI_EHSET 1
 #define CONFIG_NETFILTER_XT_MATCH_POLICY 1
